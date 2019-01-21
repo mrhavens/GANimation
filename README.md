@@ -14,7 +14,7 @@ This code was made public to share our research for the benefit of the scientifi
 - Install requirements.txt (```pip install -r requirements.txt```)
 
 ## Anaconda Install
-(Linux only; Python 2.7 version of PyTorch v0.3.1 unsupported on Windows)
+(Linux only; below shown with CUDA 8, but should work with others; Python 2.7 version of PyTorch v0.3.1 unsupported on Windows)
 
 - conda create -n GANimation python=2.7 anaconda
 - conda activate GANimation
