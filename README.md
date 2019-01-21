@@ -13,7 +13,8 @@ This code was made public to share our research for the benefit of the scientifi
 - Install PyTorch (version 0.3.1; Linux only), Torch Vision and dependencies from http://pytorch.org
 - Install requirements.txt (```pip install -r requirements.txt```)
 
-## Anaconda Install (Linux only; Python 2.7 version of PyTorch v0.3.1 unsupported on Windows)
+## Anaconda Install
+(Linux only; Python 2.7 version of PyTorch v0.3.1 unsupported on Windows)
 
 - conda create -n GANimation python=2.7 anaconda
 - conda activate GANimation
