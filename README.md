@@ -9,8 +9,15 @@ This code was made public to share our research for the benefit of the scientifi
 ![GANimation](http://www.albertpumarola.com/images/2018/GANimation/teaser.png)
 
 ## Prerequisites
-- Install PyTorch (version 0.3.1), Torch Vision and dependencies from http://pytorch.org
+- Python 2.7
+- Install PyTorch (version 0.3.1; Linux only), Torch Vision and dependencies from http://pytorch.org
 - Install requirements.txt (```pip install -r requirements.txt```)
+
+## Anaconda Install (Linux only; Python 2.7 version of PyTorch v0.3.1 unsupported on Windows)
+
+- conda create -n GANimation python=2.7 anaconda
+- conda activate GANimation
+- conda install pytorch=0.3.1 torchvision cuda80 -c pytorch
 
 ## Data Preparation
 The code requires a directory containing the following files:
