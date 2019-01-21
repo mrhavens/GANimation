@@ -19,6 +19,7 @@ This code was made public to share our research for the benefit of the scientifi
 - conda create -n GANimation python=2.7 anaconda
 - conda activate GANimation
 - conda install pytorch=0.3.1 torchvision cuda80 -c pytorch
+- pip install numpy matplotlib tqdm opencv-contrib-python
 
 ## Data Preparation
 The code requires a directory containing the following files:
