@@ -21,7 +21,7 @@ This code was made public to share our research for the benefit of the scientifi
 - conda install pytorch=0.3.1 torchvision cuda80 -c pytorch
 - conda install -c menpo dlib 
 - conda install -c akode face_recognition_models
-- pip install numpy matplotlib tqdm opencv-contrib-python
+- pip install numpy matplotlib tqdm opencv-contrib-python tensorboardX
 
 ## Data Preparation
 The code requires a directory containing the following files:
