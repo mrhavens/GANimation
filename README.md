@@ -50,6 +50,7 @@ module load cmake/3.7.1 gcc/4.9.3 cuda/8.0 cudnn/5.1 python/2.7.12
 - pip install dlib
 - pip install face_recognition
 - pip install numpy matplotlib tqdm opencv-contrib-python tensorboardX
+- pip install scikit-image
 
 ## Data Preparation
 The code requires a directory containing the following files:
@@ -72,7 +73,7 @@ bash launch/run_train.sh
 ```
 To test:
 ```
-python test --input_path path/to/img
+python test.py --input_path path/to/img
 ```
 
 ## Citation
