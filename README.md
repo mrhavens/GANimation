@@ -31,6 +31,7 @@ module load cmake/3.7.1 gcc/4.9.3 cuda/8.0 cudnn/5.1
 - conda install -c menpo dlib
 - pip install --no-dependencies face_recognition
 - pip install numpy matplotlib tqdm opencv-contrib-python tensorboardX
+(giving glibc error when importing torch)
 
 ## TACC Maverick Install
 module load cmake/3.7.1 gcc/4.9.3 cuda/8.0 cudnn/5.1 python/2.7.12
@@ -39,6 +40,16 @@ module load cmake/3.7.1 gcc/4.9.3 cuda/8.0 cudnn/5.1 python/2.7.12
 - pip install https://download.pytorch.org/whl/cu80/torch-0.3.1-cp27-cp27m-linux_x86_64.whl
 - pip install torchvision
 - pip install dlib (failed do to no C++11 detected in gcc 4.9.3)
+
+## Local Python Install
+(Python 2.7.12, GCC 5.4.0, CUDA 8)
+- virtualenv GANimation
+- source GANimation/bin/activate
+- pip install https://download.pytorch.org/whl/cu80/torch-0.3.1-cp27-cp27mu-linux_x86_64.whl
+- pip install torchvision
+- pip install dlib
+- pip install face_recognition
+- pip install numpy matplotlib tqdm opencv-contrib-python tensorboardX
 
 ## Data Preparation
 The code requires a directory containing the following files:
