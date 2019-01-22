@@ -42,7 +42,7 @@ module load cmake/3.7.1 gcc/4.9.3 cuda/8.0 cudnn/5.1 python/2.7.12
 - pip install dlib (failed do to no C++11 detected in gcc 4.9.3)
 
 ## Local Python Install
-(Python 2.7.12, GCC 5.4.0, CUDA 8)
+(Python 2.7.12, GCC 5.4.0, CUDA 8, sudo apt-get install python3-tk)
 - virtualenv GANimation
 - source GANimation/bin/activate
 - pip install https://download.pytorch.org/whl/cu80/torch-0.3.1-cp27-cp27mu-linux_x86_64.whl
