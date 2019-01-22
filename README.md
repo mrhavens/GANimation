@@ -19,9 +19,26 @@ This code was made public to share our research for the benefit of the scientifi
 - conda create -n GANimation python=2.7 anaconda
 - conda activate GANimation
 - conda install pytorch=0.3.1 torchvision cuda80 -c pytorch
-- conda install -c menpo dlib 
+- conda install -c menpo dlib
 - pip install --no-dependencies face_recognition
 - pip install numpy matplotlib tqdm opencv-contrib-python tensorboardX
+
+## Anaconda TACC Maverick Install
+module load cmake/3.7.1 gcc/4.9.3 cuda/8.0 cudnn/5.1
+- conda create -n GANimation python=2.7 anaconda
+- conda activate GANimation
+- conda install pytorch=0.3.1 torchvision cuda80 -c pytorch
+- conda install -c menpo dlib
+- pip install --no-dependencies face_recognition
+- pip install numpy matplotlib tqdm opencv-contrib-python tensorboardX
+
+## TACC Maverick Install
+module load cmake/3.7.1 gcc/4.9.3 cuda/8.0 cudnn/5.1 python/2.7.12
+- virtualenv GANimation
+- source GANimation/bin/activate
+- pip install https://download.pytorch.org/whl/cu80/torch-0.3.1-cp27-cp27m-linux_x86_64.whl
+- pip install torchvision
+- pip install dlib (failed do to no C++11 detected in gcc 4.9.3)
 
 ## Data Preparation
 The code requires a directory containing the following files:
